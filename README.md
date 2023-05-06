@@ -4,9 +4,9 @@ This project explores the technique of using task-specific rewards to  fine-tune
 
 ## The Metric Gap 
 
-When training vision modeks, often, the loss function used to train the model may not fully align with the actual task objective. Hence, there is this gap between the model predictions and intended usage which is exacerbated for vision tasks involving complex structured outputs. 
+When training vision models, often, the loss function used to train the model may not fully align with the actual task objective. Hence, there is this gap between the model predictions and intended usage which is exacerbated for vision tasks involving complex structured outputs. 
 
-Inspired from the domain of NLP, the above technique could circumvent the challenge of optimizing non-differentiable evaluation metrics, enabling more effcient fine-tuning of the models. 
+Inspired from the domain of NLP, the above technique could circumvent the challenge of optimizing non-differentiable evaluation metrics, enabling more efficient fine-tuning of the models. 
 
 ## Reinforcement Learning 
 Treat the metric  as a reward function
@@ -19,16 +19,21 @@ Treat the metric  as a reward function
 ![rl](https://user-images.githubusercontent.com/12653676/236592930-f448946f-3a8d-4d14-9f9e-05df40d09f60.png)
 
 
-## Image Superresolution
+## Image Super-Resolution
 
 ## Image Denoising 
+
+Image denoising is the task of removing noise or unwanted distortions from an image, which is usually the result of random variations in the image signal caused by factors such as low light conditions,
+imperfect camera sensors, or transmission errors in the image acquisition proces
 
 
 ### Model Architecture 
 
+![rdunet](https://user-images.githubusercontent.com/12653676/236593325-bcc9bd85-1ede-48fd-8f77-9d1ebf1b02be.png)
+
 ### Results
 
-
+<img width="903" alt="denoise" src="https://user-images.githubusercontent.com/12653676/236593826-0373723a-0c27-4c39-8c13-7d10af8a8586.png">
 
 
 

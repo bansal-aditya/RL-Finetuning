@@ -9,15 +9,14 @@ When training vision modeks, often, the loss function used to train the model ma
 Inspired from the domain of NLP, the above technique could circumvent the challenge of optimizing non-differentiable evaluation metrics, enabling more effcient fine-tuning of the models. 
 
 ## Reinforcement Learning 
-
 Treat the metric  as a reward function
 
 **REINFORCE** update rule  
-$$
-\theta_{t+1}=\theta_t-\eta \nabla \log (p(a \mid s)) A(s, a)
-$$
+
+![reinforce](https://user-images.githubusercontent.com/12653676/236592832-e4aaab91-b03a-4224-94c3-e3ff70a49abe.png)
 
 
+![rl](https://user-images.githubusercontent.com/12653676/236592930-f448946f-3a8d-4d14-9f9e-05df40d09f60.png)
 
 
 ## Image Superresolution

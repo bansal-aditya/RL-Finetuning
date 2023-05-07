@@ -31,10 +31,9 @@ imperfect camera sensors, or transmission errors in the image acquisition proces
 
 ![rdunet](https://user-images.githubusercontent.com/12653676/236593325-bcc9bd85-1ede-48fd-8f77-9d1ebf1b02be.png)
 
-### Results
+### Result Images
 
-<img width="903" alt="denoise" src="https://user-images.githubusercontent.com/12653676/236593826-0373723a-0c27-4c39-8c13-7d10af8a8586.png">
-
+<img width="598" alt="all_denoise" src="https://user-images.githubusercontent.com/12653676/236706335-f8e1b1fe-b51a-4359-a8e5-08154ac287e5.png">
 
 
 ## References 

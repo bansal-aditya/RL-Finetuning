@@ -21,11 +21,20 @@ Treat the metric  as a reward function
 
 ## Image Super-Resolution
 
+This is a standard task in computer vision, where one attempts to increase the resolution of images. The task is typically formulated as a conditional image generation problem, where the input is a low-resolution image and the output is a high-resolution image
+
+### Model Architecture 
+
+![srflow_arch](https://user-images.githubusercontent.com/12653676/236910846-8eccf91b-0269-4b9f-b953-a5727fcbedec.png)
+
+### Result Images
+
+<img width="521" alt="Screenshot 2023-05-08 at 3 05 33 PM" src="https://user-images.githubusercontent.com/12653676/236910572-26344ec5-41af-45b4-ab9b-21fdf8ccf75d.png">
+
 ## Image Denoising 
 
 Image denoising is the task of removing noise or unwanted distortions from an image, which is usually the result of random variations in the image signal caused by factors such as low light conditions,
 imperfect camera sensors, or transmission errors in the image acquisition proces
-
 
 ### Model Architecture 
 
@@ -34,7 +43,6 @@ imperfect camera sensors, or transmission errors in the image acquisition proces
 ### Result Images
 
 <img width="598" alt="all_denoise" src="https://user-images.githubusercontent.com/12653676/236706335-f8e1b1fe-b51a-4359-a8e5-08154ac287e5.png">
-
 
 ## References 
 André Susano Pinto, Alexander Kolesnikov, Yuge Shi, Lucas Beyer, and Xiaohua Zhai. Tuning computer vision models with task rewards, 2023. URL https://arxiv.org/abs/2302.08242.
